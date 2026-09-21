@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#05070c"><meta name="description" content="Kontakt – X1 Quiz Show.">
+<title>Kontakt — X1 Quiz Show</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+<div class="progress" id="progress"></div>
+<header class="header" id="header">
+  <a href="index.html" class="logo"><img src="assets/X1 Logo Weiss Transparent.png" alt="X1 Quiz Show"></a>
+  <nav class="nav"><a href="index.html#experience">Das Erlebnis</a><a href="index.html#quiz">Quiz Show</a><a href="index.html#digital">Digital</a><a href="index.html#about">Über Uns</a></nav>
+  <a href="contact.html" class="header-cta">Kontakt <span>↗</span></a>
+  <button class="menu" id="menu" aria-label="Menü öffnen"><i></i><i></i></button>
+</header>
+<div class="mobile-nav" id="mobileNav"><a href="index.html#experience">Das Erlebnis</a><a href="index.html#quiz">Quiz Show</a><a href="index.html#digital">Digital</a><a href="index.html#about">Über Uns</a><a href="contact.html">Kontakt</a></div>
+
+<main>
+<section class="contact-hero">
+  <div class="contact-hero-bg"></div>
+  <div class="contact-hero-shade"></div>
+  <div class="wrap contact-hero-content reveal">
+    <div class="eyebrow">KONTAKT</div>
+    <h1>Lasst uns<br><span>ins Gespräch kommen.</span></h1>
+    <p>Du möchtest mehr über die X1 Quiz Show erfahren, eine Kooperation besprechen oder das Format für dein Kino entdecken? Schreib uns.</p>
+  </div>
+</section>
+
+<section class="contact-form-section">
+  <div class="wrap contact-page-grid reveal">
+    <div class="contact-side">
+      <div class="eyebrow">DEINE ANFRAGE</div>
+      <h2>Dein nächster<br><span>Schritt beginnt hier.</span></h2>
+      <p>Fülle das Formular aus. Wir melden uns persönlich mit den nächsten Informationen zu X1.</p>
+      <div class="contact-points">
+        <div><b>01</b><span>Persönliche Anfrage</span></div>
+        <div><b>02</b><span>Individuelle Informationen</span></div>
+        <div><b>03</b><span>Gemeinsam den nächsten Schritt planen</span></div>
+      </div>
+    </div>
+    <form id="contactForm" class="contact-form-card">
+      <div class="form-heading"><span>01 / KONTAKT</span><h3>Erzähl uns von deinem Vorhaben.</h3></div>
+      <div class="row">
+        <label>Name<input name="name" required placeholder="Vor- und Nachname"></label>
+        <label>E-Mail<input type="email" name="email" required placeholder="name@unternehmen.de"></label>
+      </div>
+      <div class="row">
+        <label>Telefon<input name="phone" placeholder="+49 ..."></label>
+        <label>Event-Datum<input type="date" name="event_date"></label>
+      </div>
+      <label>Veranstaltungsort / Venue-Größe<input name="venue" placeholder="z. B. Kino, Stadt, Anzahl Säle / Plätze"></label>
+      <label>Nachricht<textarea name="message" rows="7" placeholder="Wie können wir helfen?"></textarea></label>
+      <button class="btn primary" type="submit">Anfrage senden <span>↗</span></button>
+      <small id="formMsg">Demo-Formular. Für den Live-Versand die Kunden-Mail bzw. den Form-Endpoint hinterlegen.</small>
+    </form>
+  </div>
+</section>
+
+<section class="contact-cta">
+  <div class="wrap center reveal">
+    <div class="eyebrow">X1 QUIZ SHOW</div>
+    <h2>Bereit für<br><span>das nächste Erlebnis?</span></h2>
+    <a class="btn primary" href="index.html">Zur Landingpage <span>↗</span></a>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap foot-top"><a class="logo" href="index.html"><img src="assets/X1 Logo Weiss Transparent.png" alt="X1 Quiz Show"></a><div class="footer-links"><a href="#">Impressum</a><a href="#">AGB</a><a href="#">Widerrufsrecht</a><a href="index.html#about">Über Uns</a><a href="#">Datenschutz</a></div></div><div class="wrap foot-bottom"><span>© 2026 X1 Quiz Show</span><span>Das neue Live-Event im Kino.</span></div></footer>
+<script src="script.js"></script>
+</body></html>
